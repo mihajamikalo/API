@@ -41,7 +41,8 @@ def download_video():
         "outtmpl": filepath,
         "format": selected_format,
         "quiet": True,
-        "merge_output_format": "mp4"
+        "merge_output_format": "mp4",
+        "cookies": "cookies.txt"  # Ajoute cette ligne
     }
 
     try:
